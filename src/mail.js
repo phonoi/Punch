@@ -7,7 +7,7 @@ var transporter = nodemailer.createTransport({
     service: config.fromEmail.service,
     auth: {
         user: config.fromEmail.user, //发送者邮箱
-        pass: config.fromEmail.pass //邮箱第三方登录授权码
+        pass: config.fromEmail.passCode //邮箱第三方登录授权码
     },
     debug: true
 }, {

@@ -60,6 +60,6 @@ typings/
 # vscode configuration
 .vscode/
 
-# 敏感信息
+# something
 src/config.js
 

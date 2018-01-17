@@ -13,7 +13,7 @@ module.exports = {
     fromEmail: {
         service: 'QQ',
         user: '2419601930@qq.com',
-        pass: 'pyjzhwlbectmdieg',
+        passCode: 'pyjzhwlbectmdieg',
     },
     message: {
         to: '55708794@qq.com',
