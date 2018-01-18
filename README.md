@@ -5,12 +5,6 @@
 
 1. clone项目并在根目录下创建config.js文件，并复制下列代码，修改对应信息
 
-2. 进入src/shell目录，执行命令
-
-```shell
-nohup ./monitorNode.sh &
-```
-
 ```javascript
 
 module.exports = {
@@ -49,3 +43,11 @@ module.exports = {
 }
 
 ```
+
+2. 进入src/shell目录，执行命令
+
+```shell
+nohup ./monitorNode.sh &
+```
+
+
