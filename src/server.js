@@ -45,7 +45,6 @@ var launch = () => {
     // console.log(`延迟${minutes}分钟`)
 
     let date = new Date()
-    let time = date.getHours()+':'+date.getMinutes()+':'+date.getSeconds()
     // 延迟执行
     setTimeout(function () {
         if (date.getHours() < 12) {
